@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+.Invis{
+  background-color:#1ea39f;
+  overflow-x: hidden; 
+}
+
+.second{
+  color:white;
+  font-style: 30px "playfair Display",sans-serif;
+}
+.phone{
+  color:aliceblue;
+}
+.transf{
+  color:white;
+}
+.code{
+  color:aliceblue;
+  font-style: 20px "playfair Display",sans-serif;
+}

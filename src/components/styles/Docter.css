@@ -1,0 +1,48 @@
+.container-s img{
+  height:80%;
+  width:80%;
+}
+.text-content-2 h1{
+  color:#1ea39f;
+  align-content: left;
+}
+.text-content-2 p{
+  color:#5E5E5E;
+  font:16px Quicksand,sans-serif;
+  text-align: justify;
+  font-size: larger;
+  line-height: 2rem;
+}
+@media (max-width: 600px) {
+  .text-content-2 p{
+  font-size:15px;
+  line-height: unset;
+  }
+}
+.wait{
+  color:#1ea39f;
+  font-style: italic;
+  font-weight: bold;
+}
+.but{
+  background-color: #1ea39f;
+  color:white;
+  border-radius: 40%;
+  height: 10vh;
+  width:10vw;
+}
+.but:hover{
+  background-color:white;
+  color:#1ea39f;
+}
+@media only screen and (min-width: 300px) and (max-width: 1200px){
+  .but{
+    width: 40%; 
+    padding: 10px; 
+  }
+}
+
+
+
+
+

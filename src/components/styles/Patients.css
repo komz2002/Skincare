@@ -1,0 +1,26 @@
+.imagep img{
+  height:30vh;
+  width:20vw;
+  margin: 3rem;
+ border:5
+}
+.them{
+  margin-top: 4rem;
+color:#1ea39f;
+font-style:60px "playfair Display",sans-serif;
+
+}
+@media (max-width: 800px) {
+  .imagep img{
+    width:50vw;
+  }
+}
+
+
+  
+
+
+
+
+
+  

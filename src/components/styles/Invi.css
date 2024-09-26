@@ -1,0 +1,40 @@
+.top{
+  color:#1ea39f;
+  font:35px "playfair Display",sans-serif;
+  font-weight:bold;
+  line-height: 3rem;
+}
+@media (max-width: 600px) {
+  .top{
+  font-size:20px;
+  line-height: unset;
+  }
+}
+.our{
+  font:18px Quicksand,sans-serif;
+  line-height: 2rem;
+  font-weight:bold;
+  color:#5E5E5E;
+}
+
+@media (max-width: 600px) {
+  .our{
+  font-size:10px;
+  line-height: unset;
+  }
+}
+
+.container-r{
+  background-color: bisque;
+  margin-top: 10rem;
+}
+.consult{
+  border-radius: 35%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.consult:hover{
+  background-color: aliceblue;
+  color:tomato;
+}
+

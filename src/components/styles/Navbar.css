@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Staatliches&display=swap');
+.log img{
+  height:5rem;
+  width:15rem;
+}
+.abou{
+  color: #1ea39f;
+  font: 20"Quicksand",sans-serif;
+}
+.free{
+border-radius: 30%;
+border:black;
+color:white;
+background-color: #1ea39f;
+height:3.5rem;
+width:12rem;
+font-size: 100%;
+transition: all 0.3s ease-in-out;
+}
+.free:hover{
+  width:15rem;
+  background-color: white;
+  color: #1ea39f;
+  font-size:150%;
+  height:4rem;
+  width:14rem;
+  border:1px solid #1ea39f;
+  border-radius: 35%;
+}
+.free{
+  margin-top: 1rem;
+}
+.button1{
+  margin-bottom: 2rem;
+}
+

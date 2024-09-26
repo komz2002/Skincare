@@ -1,0 +1,28 @@
+.servicei {
+  height:100vh;
+  width:98.5vw;
+  background-image: url("https://www.re-thinkingthefuture.com/wp-content/uploads/2021/02/A3337-42_Buerger-Center-for-Advanced-Pediatric-Care_%C2%A9www.pcparch.com_.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-color: rgba(18, 18, 18, 0.677);
+  overflow: hidden;
+}
+.servicei {
+  color:aliceblue;
+  margin-top: 8rem;
+  font:800;
+  padding:10rem;
+  font-size: 2rem;
+}
+@media (max-width: 1000px) {
+  .servicei {
+    font-size: 1rem;
+    padding:5rem;
+  }
+
+}
+
+
+

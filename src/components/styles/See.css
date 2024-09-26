@@ -1,0 +1,32 @@
+.see-2 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.see-2 img {
+  width: 100%;
+  height: auto;
+}
+.box-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.color {
+  background-color:#1ea39f;
+  max-width: 800px;
+}
+
+
+
+h1, h3 {
+  margin: 10px 0;
+}

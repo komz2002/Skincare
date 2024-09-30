@@ -28,9 +28,6 @@ function home() {
       <Logos/>
       <Scroll/>
       </>
-   
-      
-  
   )
 }
 

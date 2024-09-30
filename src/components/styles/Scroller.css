@@ -3,8 +3,28 @@
   width:15vw;
   padding:2rem;
   border:2%;
-  
 }
 .us{
   color:#1ea39f;
 }
+@media (max-width:1200px){
+.multiple-images img{
+  height:50%;
+  width:50%
+}
+}
+
+@media (max-width:800px){
+  .multiple-images img{
+    height:100%;
+    width:100%
+  }
+
+
+}
+
+
+
+
+
+

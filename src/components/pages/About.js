@@ -1,9 +1,7 @@
 import React from 'react'
 import "../styles/About.css"
 import Button from 'react-bootstrap/Button';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
+
 import { FaPhone } from "react-icons/fa6";
 import { CiLocationOn } from "react-icons/ci";
 
@@ -191,21 +189,47 @@ function About() {
       Call us at (843) 823-3533 to schedule a free consultation or book your appointment online
       <div><Button variant="danger"className="button-s">Book for consult</Button>{' '}</div>
    </div>
-   <div className="see-2 mt-5">
-    <img src="http://owh-inc.com/wp-content/uploads/2016/11/16F_room_view.jpg" alt=""/>
-    <div className="box-1">
-      <div className="row color">
-        <h1>We Do Things Differently</h1>
-        <h3>From the moment you walk through the door, our skilled and compassionate team will make you feel right at home.</h3>
-        <h1>We treat you like family.</h1>
-        <h3>We work with the latest technology to make your experience as seamless, efficient, and comfortable as can be.</h3>
-        <h1>Put your money where your mouth is..</h1>
-        <h3>We believe in making orthodontic treatments as easy and affordable as possible. We accept all orthodontic insurance and offer in-house interest-free financing!</h3>
-        <h1>We fit into YOUR schedule.</h1>
-        <h3>We offer same-day treatment at your consultation if you’re ready to get started. We know life is busy with work and school, so we’ll be as efficient and accommodating as possible with your appointments!</h3>
+   <div className="container-fluid mt-3 parallax-container">
+  
+      <div className="see-img d-none d-lg-block"></div>
+
+   
+      <div className="container see-head">
+        <h2 className="text-center text-white fw-bold">
+          We Do Things Differently
+        </h2>
+        <div className="see-content">
+          <h4>We treat you like family.</h4>
+          <p className=''>
+            From the moment you walk through the door, our skilled and compassionate team will make you feel right at home.
+          </p>
+          <hr />
+
+          <h4>Goopy impressions? No way!</h4>
+          <p>
+            We work with the latest technology to make your experience as seamless, efficient, and comfortable as can be.
+          </p>
+          <hr />
+
+          <h4>Put your money where your mouth is.</h4>
+          <p>
+            We believe in making orthodontic treatments as easy and affordable as possible. We accept all orthodontic insurance and offer in-house interest-free financing!
+          </p>
+          <hr />
+
+          <h4>We fit into YOUR schedule.</h4>
+          <p>
+            We offer same-day treatment at your consultation if you’re ready to get started. We know life is busy with work and school, so we’ll be as efficient and accommodating as possible with your appointments!
+          </p>
+          <hr />
+        </div>
+        <div className="d-flex justify-content-center pb-4">
+          <button className="btn btn-primary p-3 mx-auto">
+            Book Free Consult
+          </button>
+        </div>
       </div>
     </div>
-</div>
 <div className="container-fluid mt-5">
         <div className="container">
           <div className="row imagepx">
@@ -261,7 +285,7 @@ Friday by appointment only.</h6>
         <h5 className="text-center">@holycityorthodontics</h5>
         </div>
         <div className="multiple-images">
-          <div className="row">
+          <div className="row text-center">
             <div className="col-lg-2">
             <img src="http://www.vaibhavstores.in/storage/blog/51/featured-image.jpg"
               alt=""/>
@@ -294,7 +318,7 @@ Friday by appointment only.</h6>
     </div>
     <div className="container-fluid logos mt-5">
       <div className="container"> 
-        <div className="row">
+        <div className="row text-center">
         <div className="col-lg-2 imr">
           <img src="https://www.holycityorthodontics.com/wp-content/uploads/2022/10/holycity-aao-logo.png"
           alt=""/>

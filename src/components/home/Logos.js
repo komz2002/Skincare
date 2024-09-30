@@ -5,7 +5,7 @@ function Logos() {
   return (
     <div className="container-fluid logos mt-5">
       <div className="container"> 
-        <div className="row">
+        <div className="row text-center">
         <div className="col-lg-2 imr">
           <img src="https://www.holycityorthodontics.com/wp-content/uploads/2022/10/holycity-aao-logo.png"
           alt=""/>
@@ -25,7 +25,7 @@ function Logos() {
           </div>
           <div className="col-lg-2 imr">
           <img src="https://www.holycityorthodontics.com/wp-content/uploads/2023/08/Invisalign-Provider-Logo-1.png"alt=""/>
-    </div>
+          </div>
     </div>
     </div>
     <center><div><Button variant="danger"className="button-s">Follow us</Button>{' '}</div></center>

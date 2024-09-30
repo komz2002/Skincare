@@ -1,0 +1,22 @@
+.book-1{
+  background-image: url("https://img.freepik.com/free-vector/realistic-gua-sha-massage-composition-with-rollers-scrapers-made-natural-stone-cosmetic-serum-pink-background-vector-illustration_1284-81268.jpg?w=1060&t=st=1727694721~exp=1727695321~hmac=79ec259c0358f4b73247f69ac7513427699c1ac87086690127e6efa63642d532");
+  height:100vh;
+  width:98.5vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-color: rgba(18, 18, 18, 0.677);
+  overflow: hidden;
+}
+.wonder{
+  background-color:#1ea39f;
+
+}
+.tube{
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+  
+

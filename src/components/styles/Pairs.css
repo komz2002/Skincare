@@ -10,4 +10,11 @@
   color:#1ea39f;
   font-style:60px "playfair Display",sans-serif;
   }
-  
+  @media screen  and  (max-width:600px){
+  .imagepx img{
+    height:70%;
+    width:70%;
+    
+
+  }
+}

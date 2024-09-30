@@ -8,7 +8,7 @@ function Scroll() {
         <h5 className="text-center">@holycityorthodontics</h5>
         </div>
         <div className="multiple-images">
-          <div className="row">
+          <div className="row text-center">
             <div className="col-lg-2">
             <img src="http://www.vaibhavstores.in/storage/blog/51/featured-image.jpg"
               alt=""/>
@@ -33,7 +33,6 @@ function Scroll() {
               <img src="https://tse2.mm.bing.net/th?id=OIP.YvJpGb6uIzZ4VIih8-rp7AHaGr&pid=Api&P=0&h=220"alt=""/>
 
             </div>
-            
           </div>
         </div>
     </div>
